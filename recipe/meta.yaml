@@ -14,7 +14,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   # Would need some library futzing to get the build fully working on Windows:
   skip: true  # [win]
   run_exports:
